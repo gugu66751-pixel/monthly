@@ -1,0 +1,92 @@
+body{
+   background-color:  hsl(225, 100%, 94%);
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+   font-family: "Red Hat Display", sans-serif;
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 630px;
+    background-color: azure;
+    border-radius: 20px;
+    align-items: center;
+}
+.cover img{
+    width: 400px;
+    border-radius: 20px 20px 0 0;
+}
+.container h3{
+    padding: 10px 110px 5px;
+    font-size: 25px;
+    letter-spacing: -1px;
+    font-weight: bolder;
+}
+
+.container p{
+    padding: 0px 75px 0px;
+    font-size: 16px;
+    color:  hsl(224, 23%, 55%);
+    line-height: 25px;
+}
+.plan{
+    position: relative;
+    height: 70px;
+    width: 350px;
+    background-color:hsla(228, 13%, 92%, 0.996);
+    margin: 30px auto; 
+    border-radius: 20px;
+    display: flex;
+}
+.plan img{
+    display: flex;
+    padding: 10px 0 10px 20px;
+}
+.plan_cat p{
+    position: absolute;
+    color: black;
+    right: 100px;
+    font-weight: bold;
+}
+.price p{
+    position: absolute;
+    right: 110px;
+    top: 20px;
+}
+.plan a{
+    position: absolute;
+    color:hsl(245, 75%, 52%);
+    left: 260px;
+    top: 25px;
+}
+.process{
+    position: absolute;
+    height: 20px;
+    width: 300px;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px;
+    margin: 0px 30px; 
+    color: aliceblue;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.process:hover{
+    cursor: pointer;
+    background-color: hsl(245, 89%, 32%);
+}
+
+.cancel{
+    position: absolute;
+    top: 580px;
+    left: 150px;
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+
+}
+.cancel:hover{
+    cursor: pointer;
+    color: hsl(220, 13%, 5%);;
+}
